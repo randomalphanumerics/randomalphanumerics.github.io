@@ -38,27 +38,6 @@ lsi                 : false
 excerpt_separator   : "\n\n"
 incremental         : false
 
-# Serving
-detach              : false
-port                : 4000
-host                : 127.0.0.1
-baseurl             : "" # does not include hostname
-show_dir_listing    : false
-
-# Outputting
-permalink           : date
-paginate_path       : /page:num
-timezone            : null
-
-quiet               : false
-verbose             : false
-defaults            : []
-
-liquid:
-  error_mode        : warn
-  strict_filters    : false
-  strict_variables  : false
-
 # Markdown Processors
 kramdown:
   auto_ids          : true
